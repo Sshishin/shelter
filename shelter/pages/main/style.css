@@ -141,6 +141,103 @@
     line-height: 24px;
 }
 
-/* .about-screen-wrapper-text {
-    width: 370px;
-} */
+.pets-wrapper {
+    height: 877px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.pets-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.pets-screen-text__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.pets-screen-content {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.pets-screen-content::before {
+    content: '\2190';
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    height: 52px;
+    width: 52px;
+    text-align: center;
+    line-height: 3.2em;
+}
+
+.pets-screen-content::after {
+    content: '\2192';
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    height: 52px;
+    width: 52px;
+    text-align: center;
+    line-height: 3.2em;
+}
+
+.pets-screen-content-box {
+    width: 270px;
+    height: 475px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.pets-screen-content-box-wrapper {
+    width: 270px;
+    height: 270px;
+}
+
+.pets-screen-content-box__title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+.pets-screen-content-box__button {
+    background: #FAFAFA;
+    border-radius: 100px;
+    padding: 15px 45px;
+    outline: none;
+    border: 2px solid #F1CDB3;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #292929;
+    width: 187px;
+    height: 52px;
+}
+
+.pets-screen-button {
+    background: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    outline: none;
+    border: none;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #292929;
+}
+
