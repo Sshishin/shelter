@@ -2,12 +2,13 @@
 
 .container {
     max-width: 1280px;
-    background-color: aquamarine;
+    background-color: rgb(215, 215, 215);
     margin: 0 auto;
 }
 
 .start-screen-wrapper {
-    background-image: url(../../assets/images/start-screen-gradient-background.png);
+    background: rgb(48,35,26);
+    background: linear-gradient(90deg, rgba(48,35,26,1) 0%, rgba(36,35,34,1) 100%);
     padding: 0 40px;
 }
 
@@ -39,6 +40,7 @@
 
 .start-screen-text__subtitle {
     margin: 0;
+    max-width: 460px;
     font-family: Arial;
     font-weight: 400;
     font-size: 15px;
@@ -61,4 +63,44 @@
 
 .start-screen-img-dog {
     display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    min-width: 440px;
+    list-style: none;
+    padding: 0
+}
+
+.header-wrapper {
+    display: flex;
+    position: fixed;
+    color: white;
+    min-width: 1200px;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    top: 60px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.3334;
+}
+
+.header-logo__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 2.67px;
+}
+
+.header-logo__subtitle {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1.275px;
 }
