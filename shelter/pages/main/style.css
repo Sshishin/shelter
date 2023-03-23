@@ -79,7 +79,7 @@
 
 .header-wrapper {
     display: flex;
-    position: fixed;
+    position: absolute;
     color: white;
     min-width: 1200px;
     justify-content: space-between;
@@ -110,3 +110,37 @@
     letter-spacing: 1.275px;
     color: #CDCDCD;
 }
+
+.about-wrapper {
+    height: 588px;
+    background-color: white;
+    padding: 0 40px;
+    display: flex;
+}
+
+.about-screen {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.about-screen-wrapper-text__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    width: 370px;
+}
+
+.about-screen-wrapper-text__subtitle {
+    width: 430px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* .about-screen-wrapper-text {
+    width: 370px;
+} */
