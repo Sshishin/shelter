@@ -241,3 +241,46 @@
     align-items: center;
     justify-content: center;
 }
+
+.help-wrapper {
+    height: 611px;
+    background-color: white;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-screen {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.help-screen-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 281px;
+    justify-content: space-evenly;
+}
+
+.help-screen-content-block-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.help-screen-content-block-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.help-screen-content-block-2>* {
+    /* flex: 1 1 300px; */
+}
+
+.help-screen-content-block-1__item-text {
+
+}
