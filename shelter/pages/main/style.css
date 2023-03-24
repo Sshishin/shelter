@@ -156,6 +156,7 @@
     align-items: center;
     height: 100%;
     justify-content: space-evenly;
+    width: 1200px;
 }
 
 .pets-screen-text__title {
@@ -167,28 +168,9 @@
 
 .pets-screen-content {
     display: flex;
-    gap: 90px;
     align-items: center;
-}
-
-.pets-screen-content::before {
-    content: '\2190';
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    height: 52px;
-    width: 52px;
-    text-align: center;
-    line-height: 3.2em;
-}
-
-.pets-screen-content::after {
-    content: '\2192';
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    height: 52px;
-    width: 52px;
-    text-align: center;
-    line-height: 3.2em;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .pets-screen-content-box {
@@ -228,6 +210,11 @@
     height: 52px;
 }
 
+.pets-screen-content-block-wrapper {
+    display: flex;
+    gap: 90px;
+}
+
 .pets-screen-button {
     background: #F1CDB3;
     border-radius: 100px;
@@ -241,3 +228,12 @@
     color: #292929;
 }
 
+.pets-screen-content-arrow-wrapper {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    height: 52px;
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
