@@ -131,6 +131,7 @@
     font-size: 35px;
     line-height: 45px;
     width: 370px;
+    color: #545454;
 }
 
 .about-screen-wrapper-text__subtitle {
@@ -139,6 +140,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    color: #4C4C4C;
 }
 
 .pets-wrapper {
@@ -164,6 +166,7 @@
     font-size: 35px;
     line-height: 45px;
     text-align: center;
+    color: #545454;
 }
 
 .pets-screen-content {
@@ -193,6 +196,7 @@
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 1.2px;
+    color: #545454;
 }
 
 .pets-screen-content-box__button {
