@@ -209,8 +209,20 @@ body {
     border: 2px solid #F1CDB3;
 }
 
+.pets-screen-buttons__arrow-active-1:hover {
+    background-color: #F1CDB3;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .pets-screen-buttons__arrow-active-2 {
     border: 2px solid #F1CDB3;
+}
+
+.pets-screen-buttons__arrow-active-2:hover {
+    background-color: #F1CDB3;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .pets-screen-buttons__arrow-number {
