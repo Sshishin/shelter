@@ -225,11 +225,6 @@
     letter-spacing: 1.2px;
     color: #545454;
     font-family: Georgia;
-    /* margin-top: 40px; */
-}
-
-.pets-screen-content-box__img {
-    /* margin-top: 10px; */
 }
 
 .pets-screen-content-box__button {
@@ -492,7 +487,7 @@
     line-height: 45px;
     color: white;
     margin: 0;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
 }
 
 .footer-screen-text-block__mail {
