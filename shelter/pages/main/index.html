@@ -5,24 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../assets/icons/favicon.ico">
     <link rel="stylesheet" href="Normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Shelter</title>
 </head>
 
 <body>
     <div class="container">
         <header class="header-wrapper">
-            <div class="header-logo">
-                <h2 class="header-logo__title">Cozy House</h2>
+            <a class="header-logo">
+                <h1 class="header-logo__title">Cozy House</h1>
                 <span class="header-logo__subtitle">Shelter for pets in Boston</span>
-            </div>
+            </a>
             <nav>
                 <ul class="navigation-list">
                     <li class="navigation-list__item navigation-list__item--active">About the shelter</li>
-                    <li class="navigation-list__item">Our pets</li>
-                    <li class="navigation-list__item">Help the shelter</li>
-                    <li class="navigation-list__item">Contacts</li>
+                    <li class="navigation-list__item--hover" ><a class="navigation-list__item" href="../pets/index.html">Our pets</a></li>
+                    <li class="navigation-list__item--hover" ><a class="navigation-list__item" href="#help">Help the shelter</a></li>
+                    <li class="navigation-list__item--hover" ><a class="navigation-list__item" href="#footer">Contacts</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,7 +34,7 @@
                     <p class="start-screen-text__subtitle">We offer to give a chance to a little and nice puppy with an
                         extremely wide and open heart. He or she will love you more than anybody else in the world, you
                         will see!</p>
-                    <button class="start-screen-text__btn">Make a friend</button>
+                    <a class="start-screen-text__btn" href="#our-friends">Make a friend</a>
                 </div>
                 <div class="start-screen-img">
                     <img class="start-screen-img-dog" src="../../assets/images/start-screen-puppy.png" alt="start-dog">
@@ -61,7 +62,7 @@
         <div class="pets-wrapper">
             <div class="pets-screen">
                 <div class="pets-screen-text">
-                    <div class="pets-screen-text__title">Our friends who <br>
+                    <div class="pets-screen-text__title" id="our-friends">Our friends who <br>
                         are looking for a house</div>
                 </div>
                 <div class="pets-screen-content">
@@ -98,13 +99,13 @@
                         <img class="pets-screen-content-arrow-wrapper__content" src="../../assets/icons/icons8-длинная-стрелка-вверх.png" alt="right-arrow">
                     </div>
                 </div>
-                <button class="pets-screen-button">Get to know the rest</button>
+                <a class="pets-screen-button" href="../pets/index.html">Get to know the rest</a>
             </div>
         </div>
         <div class="help-wrapper">
             <div class="help-screen">
                 <div class="help-screen-text">
-                    <h3 class="help-screen-text__content">How you can help <br>
+                    <h3 class="help-screen-text__content" id="help">How you can help <br>
                         our shelter</h3>
                 </div>
                 <div class="help-screen-content">
@@ -165,7 +166,7 @@
                     <h5 class="donation-screen-text__subtitle">Name of the bank / Type of bank account</h5>
                     <div class="donation-screen-text-card">
                         <img class="donation-screen-text-card__icon" src="../../assets/icons/credit-card.svg" alt="credit-card">
-                        <span class="donation-screen-text-card__numbers">8380 2880 8028 8791 7435</span>
+                        <a class="donation-screen-text-card__numbers">8380 2880 8028 8791 7435</a>
                     </div>
                     <p class="donation-screen-text-card__descr">Legal information and lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices
@@ -174,29 +175,29 @@
             </div>
         </div>
         <footer class="footer-wrapper">
-            <div class="footer-screen">
+            <div class="footer-screen" id="footer">
                 <div class="footer-screen-text">
                     <div class="footer-screen-text-block-1">
                         <h3 class="footer-screen-text-block__title">For questions <br> and suggestions</h3>
                         <div class="footer-screen-text-block__mail">
                             <img class="footer-screen-text-block__mail-img" src="../../assets/icons/mail.png" alt="mail">
-                            <h4 class="footer-screen-text-block__mail-content">email@shelter.com</h4>
+                            <a class="footer-screen-text-block__mail-content" href="mailto:email@shelter.com">email@shelter.com</a>
                         </div>
                         <div class="footer-screen-text-block__number">
                             <img class="footer-screen-text-block__number-img" src="../../assets/icons/phone.png" alt="phone">
-                            <h4 class="footer-screen-text-block__number-content">+13 674 567 75 54</h4>
+                            <a class="footer-screen-text-block__number-content" href="tel:+136745677554">+13 674 567 75 54</a>
                         </div>
                     </div>
                     <div class="footer-screen-text-block-2">
                         <h3 class="footer-screen-text-block__title">We are waiting <br> for your visit</h3>
                         <div class="footer-screen-text-block__address footer-screen-text-block__address--big ">
                             <img class="footer-screen-text-block__address-img" src="../../assets/icons/pin.png" alt="pin">
-                            <h4 class="footer-screen-text-block__address-content">1 Central Street, Boston <br> (entrance from
-                                the store)</h4>
+                            <a class="footer-screen-text-block__address-content" target="_blank" href="https://goo.gl/maps/1gwfRA4CMnYjtmiz9">1 Central Street, Boston <br> (entrance from
+                                the store)</a>
                         </div>
                         <div class="footer-screen-text-block__address">
                             <img class="footer-screen-text-block__address-img" src="../../assets/icons/pin.png" alt="pin">
-                            <h4 class="footer-screen-text-block__address-content">18 South Park, London </h4>
+                            <a class="footer-screen-text-block__address-content" target="_blank" href="https://goo.gl/maps/1gwfRA4CMnYjtmiz9">18 South Park, London </a>
                         </div>
                     </div>
                     <div class="footer-screen-img">

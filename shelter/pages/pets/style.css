@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #E6E6E6;
+}
+
 .container {
     max-width: 1280px;
     background-color: rgb(215, 215, 215);
@@ -14,11 +18,27 @@
     min-width: 440px;
     list-style: none;
     padding: 0;
+}
+
+.navigation-list__item {
+    text-decoration: none;
     font-family: Arial;
     font-weight: 400;
     font-size: 15px;
     color: #545454;
     line-height: 160%;
+}
+
+.navigation-list__item--hover:hover {
+    color: #FAFAFA;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navigation-list__item:hover {
+    color: #292929;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .navigation-list__item--active {
@@ -141,6 +161,16 @@
     letter-spacing: 1.2px;
 }
 
+.pets-screen-content-box:hover {
+    cursor: pointer;
+}
+
+.pets-screen-content-box:hover .pets-screen-content-box__button {
+    background-color: #FDDCC4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .pets-screen-content-block-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -215,7 +245,77 @@
 .footer-screen-img {
     display: flex;
 }
+.footer-screen-img__content {
+    margin-top: 40px;
+}
 
+.footer-screen-text-block__title {
+    font-weight: 400;
+    font-size: 35px;
+    font-family: Georgia;
+    line-height: 45px;
+    color: white;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.footer-screen-text-block__mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 251px;
+    height: 32px;
+}
+
+.footer-screen-text-block__mail-content {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+    letter-spacing: 1.18px;
+    color: #F1CDB3;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-screen-text-block__number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 239px;
+    height: 32px;
+}
+
+.footer-screen-text-block__number-content {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+    letter-spacing: 1.18px;
+    color: #F1CDB3;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-screen-text-block__address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.footer-screen-text-block__address-content {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+    letter-spacing: 1.18px;
+    color: #F1CDB3;
+    height: 46px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
 .footer-screen-img__content {
     margin-top: 40px;
 }
